@@ -1,0 +1,32 @@
+name: book_shelf
+description: A new Test project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  oktoast: ^2.2.0
+  rxdart: ^0.22.6
+  flutter_bloc: ^2.0.0
+  logger: ^0.7.0+2
+  flutter_spinkit: ^4.0.0
+  animated_stream_list: ^1.0.0
+  sqflite: any
+  path_provider: any
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
